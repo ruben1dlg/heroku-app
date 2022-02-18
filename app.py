@@ -1,6 +1,6 @@
 from dash import Dash, html, dcc, Input, Output
 import altair as alt
-
+from vega_datasets import data
 
 # Read in global data
 df = data.gapminder()
